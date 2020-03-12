@@ -1,0 +1,13 @@
+.table {
+    margin: 0px 0 0 0;
+    display: block;
+  }
+  
+  .table td {
+    color: yellow;
+  }
+  
+  .titles {
+    color: white;
+  }
+  
