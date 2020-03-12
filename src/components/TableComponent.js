@@ -1,8 +1,8 @@
-import React, { PureComponent } from 'react';
-import { Table } from 'react-bootstrap';
+import React, { PureComponent } from 'react'
+import { Table } from 'react-bootstrap'
 
-export default class TableComponent extends PureComponent {
-  render() {
+class TableComponent extends PureComponent {
+  render () {
     return (
       <div>
         <div className="table">
@@ -50,6 +50,8 @@ export default class TableComponent extends PureComponent {
           </Table>
         </div>
       </div>
-    );
+    )
   }
 }
+
+export default TableComponent

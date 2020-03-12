@@ -1,7 +1,7 @@
-import React, { PureComponent } from 'react';
+import React, { PureComponent } from 'react'
 
-export default class TitleComponent extends PureComponent {
-  render() {
+class TitleComponent extends PureComponent {
+  render () {
     return (
       <div className="titleOne container-fluid">
         <h1 className="titleTwo">¿Que es el IMC?</h1>
@@ -17,6 +17,8 @@ export default class TitleComponent extends PureComponent {
           contrario debe cuidarse en mayor medida.
         </h3>
       </div>
-    );
+    )
   }
 }
+
+export default TitleComponent
