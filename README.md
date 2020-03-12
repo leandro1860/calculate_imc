@@ -1,6 +1,8 @@
 Calculate your Body Mass Index
 
 Web application made with React.js to calculate the body mass index. Finished
+To see the App here:
+https://leandro1860.github.io/calculate_imc/
 
 ---
 
