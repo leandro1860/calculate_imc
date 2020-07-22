@@ -18,12 +18,12 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "node_modules/.bin/eslint src/**/*.js",
-    "lint:fix": "node_modules/.bin/eslint src/**/*.js --fix" 
+    "lint:fix": "node_modules/.bin/eslint src/**/*.js --fix"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint:fix",
-      "pre-push ": "npm run lint"
+      "pre-commit": "yarn run lint:fix",
+      "pre-push ": "yarn run lint"
     }
   },
   "eslintConfig": {
